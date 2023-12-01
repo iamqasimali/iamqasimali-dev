@@ -49,24 +49,24 @@ const about = () => {
                         <div className="col-span-3 flex flex-col items-start justify-start">
                             <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">Biography</h2>
                             <p className="font-medium">
-                                Hi, I'm Qasim Ali Zahid, a passionate developer who loves working with Ruby on Rails.
-                                 I've spent the last 5 years honing my skills and gaining experience in this amazing framework. 
-                                 I am always looking for new and innovative ways to bring my clients' visions to life.
+                                Hi, I&apos;m Qasim Ali Zahid, a passionate developer who loves working with Ruby on Rails.
+                                 I&apos;ve spent the last 5 years honing my skills and gaining experience in this amazing framework. 
+                                 I am always looking for new and innovative ways to bring my clients visions to life.
                             </p>
                             <p className="font-medium my-4">
-                                I believe that design is about more than just making things look pretty – it's about solving problems and 
+                                I believe that design is about more than just making things look pretty – it&apos;s about solving problems and 
                                 creating intuitive, enjoyable experiences for users.
-                                During my time as a Rails developer, I've worked on a variety of projects, from small startups to large enterprises.
-                                I've built custom web applications, created RESTful APIs, integrated third-party services, and optimized database performance.
+                                During my time as a Rails developer, I&apos;ve worked on a variety of projects, from small startups to large enterprises.
+                                I&apos;ve built custom web applications, created RESTful APIs, integrated third-party services, and optimized database performance.
                             </p>
                             <p className="font-medium my-4">
-                            I'm a problem solver at heart, and I love tackling complex challenges.
-                            I'm constantly learning and keeping up-to-date with the latest technologies, including Rails 6 and beyond.
-                            I'm also experienced in working with front-end technologies like JavaScript, HTML, and CSS, TailwindCSS, ReactJS, NextJS, NodeJS, .
+                            I&apos;m a problem solver at heart, and I love tackling complex challenges.
+                            I&apos;m constantly learning and keeping up-to-date with the latest technologies, including Rails 6 and beyond.
+                            I&apos;m also experienced in working with front-end technologies like JavaScript, HTML, and CSS, TailwindCSS, ReactJS, NextJS, NodeJS, .
                             </p>
                             <p className="font-medium">
-                                In addition to my technical skills, I'm a team player who values communication, collaboration, and transparency.
-                                I believe that great software is built by great teams, and I'm always willing to lend a helping hand and share my expertise.
+                                In addition to my technical skills, I&apos;m a team player who values communication, collaboration, and transparency.
+                                I believe that great software is built by great teams, and I&apos;m always willing to lend a helping hand and share my expertise.
                             </p>
                         </div>
                         <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark
