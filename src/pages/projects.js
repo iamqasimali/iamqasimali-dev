@@ -5,7 +5,12 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import project1 from "../../public/images/projects/artiove.png"
+import project2 from "../../public/images/projects/agencyPic.png"
+import project3 from "../../public/images/projects/badminton.png"
+import project4 from "../../public/images/projects/carshare.png"
+import project5 from "../../public/images/projects/diamond.png"
+import project6 from "../../public/images/projects/intimeGDT.png"
 import {motion} from "framer-motion";
 
 const FramerImage = motion(Image);
@@ -81,63 +86,69 @@ const projects = () => {
                     <div className="grid grid-cols-12 gap-24 gap-y-32">
                         <div className="col-span-12">
                         <FeaturedProject
-                            title="Crypto Screener Application"
-                            summery="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
+                            title="Agency Pics"
+                            summery="Agency.pics is a platform designed for connecting models, influencers, and creatives. It provides a space for users to showcase their portfolios and network with industry professionals.
+                             The site aims to streamline the process of finding and collaborating with talent for various creative projects."
+                            link="https://www.agency.pics/"
+                            github={"https://github.com/iamqasimali"}
+                            type="Featured Project"
+                            img={project2}
+                        />
+                        </div>
+                        <div className="col-span-6">
+                        <Project
+                            title="Artio"
+                            summery="This project leverages Hugging Face's pretrained 'artio' model to generate images from textual descriptions, 
+                            transforming written content into visually compelling imagery using advanced AI techniques."
                             link="/"
-                            github={"/"}
+                            github={"https://github.com/iamqasimali"}
                             type="Featured Project"
                             img={project1}
                         />
                         </div>
                         <div className="col-span-6">
                         <Project
-                            title="Crypto Screener Application"
+                            title="Badminton"
+                            summery="The project is a comprehensive badminton tournament organization and management system featuring three distinct portals: Player, Tournament Management, and Admin. Built using the MERN stack,
+                            this system leverages React for a dynamic front-end experience, Express.js for the backend API, and PostgreSQL for robust data management."
                             link="/"
-                            github={"/"}
+                            github={"https://github.com/iamqasimali"}
                             type="Featured Project"
-                            img={project1}
-                        />
-                        </div>
-                        <div className="col-span-6">
-                        <Project
-                            title="Crypto Screener Application"
-                            link="/"
-                            github={"/"}
-                            type="Featured Project"
-                            img={project1}
+                            img={project3} 
                         />
                         </div>
 
                         <div className="col-span-12">
                         <FeaturedProject
-                            title="Crypto Screener Application"
-                            summery="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
+                            title="Carshare"
+                            summery="Carshare is a model of car rental where people rent cars for short periods of time, often by the hour. It differs from traditional car rental in that the owners of the cars are often private individuals themselves,
+                            and the car sharing facilitator is generally distinct from the car owner. Car sharing is part of a larger trend of shared mobility."
                             link="/"
-                            github={"/"}
+                            github={"https://github.com/iamqasimali"}
                             type="Featured Project"
-                            img={project1}
+                            img={project4}
                         />
                         </div>
                         <div className="col-span-6">
                         <Project
-                            title="Crypto Screener Application"
+                            title="Diamond Chauffeur Limousine"
+                            summery="Diamond Chauffeur Limousine offers premium car rental services, ensuring luxury and comfort for all your travel needs, built with PERN(PostgreSQL, Express, React, and Node) stack
+                            built to provide superior and luxurious rental services that cater to the unique needs of every client."
                             link="/"
-                            github={"/"}
+                            github={"https://github.com/iamqasimali"}
                             type="Featured Project"
-                            img={project1}
+                            img={project5}
                         />
                         </div>
                         <div className="col-span-6">
                         <Project
-                            title="Crypto Screener Application"
+                            title="intimeGDT"
+                            summery="The IntimeGDT provides access to a wide variety of datasets, allowing users to discover, evaluate, and access data in real-time. It offers data products from multiple providers, which can be seamlessly integrated into users' data ecosystems for various use cases, including analytics, machine learning, and business intelligence.
+                            The marketplace includes datasets across different industries and domains, helping organizations make data-driven decisions."
                             link="/"
-                            github={"/"}
+                            github={"https://github.com/iamqasimali"}
                             type="Featured Project"
-                            img={project1}
+                            img={project6}
                         />
                         </div>
 

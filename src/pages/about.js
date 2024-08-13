@@ -4,7 +4,7 @@ import Head from "next/head";
 import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 
-import profilepic2 from "../../public/images/profile/developer-pic.jpeg"
+import profilepic2 from "../../public/images/profile/dev-pic.gif"
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
