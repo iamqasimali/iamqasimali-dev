@@ -6,8 +6,8 @@ import Image from 'next/image'
 import React, { useRef } from 'react'
 import {motion, useMotionValue} from "framer-motion"
 
-import article1 from '../../public/images/articles/pagination component in reactjs.jpg'
-import article2 from '../../public/images/articles/create loading screen in react js.jpg'
+import article1 from '../../public/images/articles/article1.webp'
+import article2 from '../../public/images/articles/article3.webp'
 import article3 from '../../public/images/articles/create modal component in react using react portals.png'
 import article4 from '../../public/images/articles/form validation in reactjs using custom react hook.png'
 import article5 from '../../public/images/articles/smooth scrolling in reactjs.png'
@@ -105,18 +105,18 @@ const articles = () => {
             <ul className='grid grid-cols-2 gap-16'>
                 
                 <FeaturedArticle  
-                title="Build A Custom Pagination Component In Reactjs From Scratch"
+                title="Use of Reduce method in JavaScript"
                 img={article1}
-                summery= "Learn how to build a custom pagination component in ReactJS from scratch. Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
+                summery= "A pretty common thing that we all do as programmers is we take some kind of a list of data in the form of an array and we need to transform it into something else."
                 time="9 min read"
-                link="/" />
+                link="https://medium.com/@qasimali7566675/transform-an-array-into-a-single-value-using-reduce-129c5416a4af" />
 
                 <FeaturedArticle  
-                title="Build A Custom Pagination Component In Reactjs From Scratch"
+                title="Rails Interview Questions for Senior Software Engineer"
                 img={article2}
-                summery= "Learn how to build a custom pagination component in ReactJS from scratch. Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
+                summery= "In Ruby on Rails, transactions are a way to group a series of database operations into a single unit of work that must either be fully completed or rolled back if any part of it fails."
                 time="9 min read"
-                link="/" />
+                link="https://medium.com/@qasimali7566675/rails-interview-questions-for-senior-software-engineer-9cf484d5d592" />
 
                 
 
@@ -126,24 +126,24 @@ const articles = () => {
             
             <ul className=''>
                 <Article 
-                title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-                img={article4}
+                title="Deploy Rails Application on Digital Ocean"
+                img={article1}
                 date="March 20, 2023"
-                link="/"
+                link="https://medium.com/@qasimali7566675"
                 />
 
                 <Article 
-                title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-                img={article3}
+                title="Import and Export Data on Heroku Postgres Database"
+                img={article2}
                 date="March 21, 2023"
-                link="/"
+                link="https://medium.com/@qasimali7566675"
                 />
 
                 <Article 
-                title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-                img={article5}
+                title="TailwindCSS styled email for Ruby on Rails"
+                img={article2}
                 date="March 21, 2023"
-                link="/"
+                link="https://medium.com/@qasimali7566675"
                 />
             </ul>
 
